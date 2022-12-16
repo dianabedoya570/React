@@ -3,6 +3,7 @@
   height: 300px;
   border-radius: 5px;
   border: 2px solid blue;
+  margin: 5px;
 }
 #card__img {
   width: 100%;
@@ -19,9 +20,9 @@
   font-size: x-small;
   font-weight: lighter;
   margin: 30px 10px 0px 10px;
-}
+} 
 
 #card__location {
-  font-size: medium;
+  font-size:small;
   margin: 5px 10px 20px 10px;
 }

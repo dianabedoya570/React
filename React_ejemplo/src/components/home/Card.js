@@ -1,16 +1,16 @@
 import React from "react";
 import "../../assets/css/card.css";
 
-export default function Card() {
+export default function Card({personaje}) {
   return (
     <div className="card">
       <img
         id="card__img"
-        src="https://es.web.img3.acsta.net/pictures/18/10/31/17/34/2348073.jpg"
+        src={personaje.image}
       />
-      <p id="card__name">nombre</p>
+      <p id="card__name">{personaje.name}</p>
       <p id="card_lastLocation">Last Location </p>
-      <p id="card__location">ubicacion Aqui </p>
+      <p id="card__location">{personaje.location.name} </p>
     </div>
   );
 }
